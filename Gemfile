@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-source 'https://rubygems.org'
-#source 'http://ruby.taobao.org'
-=======
 source 'https://gems.ruby-china.org'
->>>>>>> ec2adc14d950309a30855e3981c59f2d3cc918f4
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2.8'
@@ -35,16 +30,10 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
-<<<<<<< HEAD
-gem 'rails_12factor'
-#gem 'qiniu_direct_uploader', path: '../qiniu_direct_uploader/'
-gem "qiniu_direct_uploader", "~> 0.0.5"
-=======
 
 # $ bundle config --local local.qiniu_direct_uploader /Users/guochunzhong/git/oss/qiniu_direct_uploader/
-gem "qiniu_direct_uploader", git: 'https://github.com/huobazi/qiniu_direct_uploader.git', branch: :master
+gem 'qiniu_direct_uploader', git: 'https://github.com/huobazi/qiniu_direct_uploader.git', branch: :master
 
->>>>>>> ec2adc14d950309a30855e3981c59f2d3cc918f4
 gem 'better_errors', group: :development
 gem 'binding_of_caller'
 
